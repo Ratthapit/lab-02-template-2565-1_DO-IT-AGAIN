@@ -1,5 +1,5 @@
 const lazyMax = (input) => {
-  /* Your code here */
+  return input.reduce((newnum, max) => (newnum > max ? newnum : max));
 };
 
 //Test cases
